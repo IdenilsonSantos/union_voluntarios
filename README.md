@@ -25,11 +25,13 @@
     <img alt="LICENSE" src="https://img.shields.io/github/license/vitorserrano/task-manager?color=7159C1">
   </a>
 </p>
+
 ## Índice
 
 - [Sobre](#sobre)
 - [Tecnologias](#tecnologias)
 - [Como Instalar](#instalar)
+- [Como Contribuir](#contribuir)
 
 <a id="sobre"></a>
 
@@ -76,7 +78,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias.
 
 ```
 
-3. Como contribuir
+<a id="contribuir"></a>
+
+## Como Contribuir
 
 Faça um Fork desse repositório,
 Crie uma branch com a sua feature: git checkout -b my-feature
