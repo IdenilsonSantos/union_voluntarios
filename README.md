@@ -1,44 +1,88 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src=".github/logoapp.svg" alt="Happy" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <b>Busque locais que necessitem de trabalho voluntário.</b>
+</p>
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+<p align="center">
+  <a href="https://nodejs.org/en/" target="_blank">
+    <img alt="Node.js version" src="https://img.shields.io/badge/node-v14.13.0-brightgreen">
+  </a>
+  <a href="https://npmjs.com/" target="_blank">
+    <img alt="NPM version" src="https://img.shields.io/badge/npm-v6.14.8-blue%20">
+  </a>
+  <a>
+    <img alt="Eslint style guide" src="https://img.shields.io/badge/eslint-airbnb-red">
+  </a>
+  <a href="https://rocketseat.com.br/" target="_blank">
+    <img alt="Based on Happy made by Rocketseat" src="https://img.shields.io/badge/based%20on%20happy%20made%20by-%20RockeatSeat-2300c7c7">
+  </a>
+  <a href="LICENSE.md" target="_blank">
+    <img alt="LICENSE" src="https://img.shields.io/github/license/vitorserrano/task-manager?color=7159C1">
+  </a>
+</p>
+## Índice
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Sobre](#sobre)
+- [Tecnologias](#tecnologias)
+- [Como Instalar](#instalar)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<a id="sobre"></a>
 
-### `npm test`
+## Sobre
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este é um aplicativo baseado no Happy criado pela RocketSeat.
 
-### `npm run build`
+<a id="tecnologias"></a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+O projeto foi desenvolvido utilizando as seguintes tecnologias.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
 
-### `npm run eject`
+<a id="instalar"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Como Instalar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ### **Pré-requisitos**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+- [Expo](https://expo.io/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Faça o clone do projeto :
 
-## Learn More
+```sh
+  $ git clone https://github.com/IdenilsonSantos/union_voluntarios.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Executando a Aplicação:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+  # Instale as dependências
+  $ npm install
+
+  # Inicie a aplicação
+  $ cd pasta_projeto
+  $ npm start
+
+```
+
+3. Como contribuir
+
+Faça um Fork desse repositório,
+Crie uma branch com a sua feature: git checkout -b my-feature
+Commit suas mudanças: git commit -m 'feat: My new feature'
+Push a sua branch: git push origin my-featur
+
+## License
+
+Esse projeto está sob a licença MIT.
