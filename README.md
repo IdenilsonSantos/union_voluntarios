@@ -1,81 +1,94 @@
-<p align="center">
-  <img src=".github/logoapp.svg" alt="Happy" />
-</p>
+<div align="center">
+  <br />
+  
+   <h3 align="center">Um editor colaborativo</h3> <br />
+   <img src="https://res.cloudinary.com/djgvgwuwe/image/upload/v1724524690/portfolio/ihahod4slfw5m4tyrt06.png" alt="Project Banner">
+  <br />
 
-<p align="center">
-  <b>Busque locais que necessitem de trabalho voluntário.</b>
-</p>
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=61DAFB" alt="next.js" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-<br />
+</div>
 
-<p align="center">
-  <a href="https://nodejs.org/en/" target="_blank">
-    <img alt="Node.js version" src="https://img.shields.io/badge/node-v14.13.0-brightgreen">
-  </a>
-  <a href="https://npmjs.com/" target="_blank">
-    <img alt="NPM version" src="https://img.shields.io/badge/npm-v6.14.8-blue%20">
-  </a>
-  <a>
-    <img alt="Eslint style guide" src="https://img.shields.io/badge/eslint-airbnb-red">
-  </a>
-  <a href="https://rocketseat.com.br/" target="_blank">
-    <img alt="Based on Happy made by Rocketseat" src="https://img.shields.io/badge/based%20on%20happy%20made%20by-%20RockeatSeat-2300c7c7">
-  </a>
-  <a href="LICENSE.md" target="_blank">
-    <img alt="LICENSE" src="https://img.shields.io/github/license/vitorserrano/task-manager?color=7159C1">
-  </a>
-</p>
+## <a name="table">Glossário</a>
 
-## Índice
+1. [Sobre](#introduction)
+2. [Tecnologias](#tech-stack)
+3. [Features](#features)
+4. [Iniciar a aplicação](#quick-start)
+5. [Contribuir](#contribution)
 
-- [Sobre](#sobre)
-- [Tecnologias](#tecnologias)
-- [Como Instalar](#instalar)
-- [Como Contribuir](#contribuir)
 
-<a id="sobre"></a>
+## <a name="introduction">Sobre</a>
 
-## Sobre
 
-Este é um aplicativo baseado no Happy criado pela RocketSeat.
+Aplicação realtime construída com Next.js, Liveblocks que possibilitam a interação em tempo real sem necessidade de backend e TailwindCSS para estilizar, parecido com o Google docs e outras ferramentas colaborativas.
 
-<a id="tecnologias"></a>
+## <a name="tech-stack">Tecnologias</a>
 
-## Tecnologias Utilizadas
+- Next.js
+- TypeScript
+- Liveblocks
+- Lexical Editor
+- ShadCN
+- Tailwind CSS
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias.
+## <a name="features">Features</a>
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
+👉 **Autenticação**: Autenticação através da ferramenta Clerk, que possibilita a integração da aplicação com o google ou outras ferramentas desejadas para iniciar ou encerrar uma sessão.
 
-<a id="instalar"></a>
+👉 **Colaboração**: Os usuários cadasstrados podem editar o documento de forma simultanea.
 
-## Como Instalar
+👉 **Manipulação dos Documentos**
+   - **Criação**: Os usuários podem criar novos documentos, que são salvos e listados automaticamente.
+   - **Excluir Documentos**: Os usuários podem excluir documentos que a eles pertencem.
+   - **Compartilhar Documentos**: Os usuários podem compartilhar documentos com permissões de visualização ou edição.
+   - **Listar documentos**: Exibe todos os documentos que pertencem ou são compartilhados com o usuário
 
-- ### **Pré-requisitos**
+👉 **Commentários**: Usuários podem adicionar comentários que serão vistos por outros usuários em tempo rreal.
 
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
-- [Expo](https://expo.io/)
+👉 **Usuários ativos**: Mostra os usuários ativos por meio de identificadores coloridos.
 
-1. Faça o clone do projeto :
+👉 **Notificações**: Notifica os usuários em todas as ações realizadas.
 
-```sh
-  $ git clone https://github.com/IdenilsonSantos/union_voluntarios.git
+## <a name="quick-start">Como rodar</a>
+
+**Pré-requisitos**
+
+Você precisa ter o seguinte para rodar em sua máquina:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Gerenciador de Pacotes de Nó)
+
+**Clone este repositório**
+
+```bash
+clone do git https://github.com/IdenilsonSantos/realtimedocseditor.git
+cd realtimedocseditor
 ```
 
-2. Executando a Aplicação:
+**Instalação**
 
-```sh
-  # Instale as dependências
-  $ npm install
+Instale as dependências do projeto usando npm:
 
-  # Inicie a aplicação
-  $ cd pasta_projeto
-  $ npm start
+```bash
+npm install 
+```
 
+**Variáveis de ambiente**
+
+Neste repositório há um arquivo `.env.example`, copie o contéudo dele para um outro arquivo chamado `.env` ou `.env.local`:
+
+Substitua os valores do espaço no arquivo env com suas credenciais do Clerk & LiveBlocks. Você pode obter essas credenciais inscrevendo-se no site [Clerk](https://clerk.com/) e [Liveblocks](liveblocks.io/).
+
+**Executando o Projeto**
+
+```bash
+npm run dev
 ```
 
 <a id="contribuir"></a>
@@ -87,6 +100,9 @@ Crie uma branch com a sua feature: git checkout -b my-feature
 Commit suas mudanças: git commit -m 'feat: My new feature'
 Push a sua branch: git push origin my-featur
 
-## License
+## Licença
 
 Esse projeto está sob a licença MIT.
+   <div align="center">
+     Este projeto foi construido baseado no tutorial do canal <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>
+    </div>
